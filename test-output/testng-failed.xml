@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="All Test">
+    <classes>
+      <class name="TC1">
+        <methods>
+          <include name="setup1"/>
+          <include name="login1"/>
+        </methods>
+      </class> <!-- TC1 -->
+      <class name="TC2">
+        <methods>
+          <include name="setup2"/>
+          <include name="login2"/>
+        </methods>
+      </class> <!-- TC2 -->
+    </classes>
+  </test> <!-- All Test -->
+</suite> <!-- Failed suite [All Test Suite] -->
